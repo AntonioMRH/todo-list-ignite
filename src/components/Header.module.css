@@ -1,0 +1,21 @@
+.headerLogo {
+	box-sizing: border-box;
+	width: 100%;
+	height: 200px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	margin: 0;
+	padding-bottom: 4px;
+
+	background-color: var(--gray-700);
+	z-index: 10000;
+}
+
+.headerLogo img {
+	width: 126px;
+	height: 48px;
+}
